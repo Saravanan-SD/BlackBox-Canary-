@@ -1,0 +1,15 @@
+[project]
+name = "blackCanary"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Saravanan", email = "saravanansd634@gmail.com"},
+]
+dependencies = ["fastapi>=0.116.1", "uvicorn>=0.35.0", "openai>=1.97.1", "python-dotenv>=1.1.1", "langchain-groq>=0.3.6", "celery>=5.5.3", "redis>=6.2.0", "pymongo>=4.13.2", "dnspython>=2.7.0", "flower>=2.0.1", "git-filter-repo>=2.47.0"]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
